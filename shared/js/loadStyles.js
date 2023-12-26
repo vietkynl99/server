@@ -1,6 +1,7 @@
 "use strict";
 
 function loadCSS(url) {
+    console.log("Loading url " + url);
     var link = document.createElement('link');
     link.rel = 'stylesheet';
     link.type = 'text/css';
